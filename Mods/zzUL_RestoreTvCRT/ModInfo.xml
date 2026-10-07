@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="zzUL_RestoreTvCRT" />
+	<DisplayName value="UL - Restore tvCRT_PlayerOff (for FNS Exham Priory)" />
+	<Description value="Undead Legacy removes block tvCRT_PlayerOff; the FNS POI vb_FNS_Exham_Priory uses it and fails to load. Re-adds it as a plain UL CRT TV (not craftable). Needed on host AND clients. Do not remove once the POI has generated." />
+	<Author value="TalosDx" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/TalosDx/ul-fixes" />
+</xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="zzzUL_KeepActionSkills" />
+	<DisplayName value="UL - Keep Action Skills on Death" />
+	<Description value="Removes only the Action Skill loss from Undead Legacy's death penalty. All other penalties (XP loss, Near Death Trauma, reduced respawn stats) stay intact. Host/server-side." />
+	<Author value="TalosDx" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/TalosDx/ul-fixes" />
+</xml>

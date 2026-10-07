@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+	<!--
+		Undead Legacy applies Action Skill loss on death via one effect_group
+		inside buffDeathFoodDrinkAdjust (Config/Custom/buffs_progression.xml),
+		gated by $DeathPenalty > 1 (Moderate / Standard).
+		Removing that effect_group disables ONLY the Action Skill loss.
+		All other death penalties (XP loss, Near Death Trauma, and the
+		Standard respawn stat reduction at $DeathPenalty > 2) are untouched.
+	-->
+	<remove xpath="/buffs/buff[@name='buffDeathFoodDrinkAdjust']/effect_group[triggered_effect/@buff='actionSkillDeathPenalty']" />
+
+</configs>

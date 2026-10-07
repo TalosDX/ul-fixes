@@ -1,0 +1,10 @@
+<configs>
+	<!-- UL removes tvCRT_PlayerOff/On. vb_FNS_Exham_Priory (Vanilla Block POIs by FNS) uses tvCRT_PlayerOff,
+	     so the whole POI is skipped on load. Re-add it as UL's own tvCRT (same model/behaviour), hidden from creative. -->
+	<append xpath="/blocks">
+		<block name="tvCRT_PlayerOff">
+			<property name="Extends" value="tvCRT"/>
+			<property name="CreativeMode" value="None"/>
+		</block>
+	</append>
+</configs>

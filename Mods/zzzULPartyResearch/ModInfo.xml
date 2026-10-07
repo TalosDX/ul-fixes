@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="zzzULPartyResearch" />
+	<DisplayName value="UL Party Research Craft" />
+	<Description value="Crafting recipes researched by any party member are craftable by every member while grouped (Undead Legacy). Client-side." />
+	<Author value="TalosDx" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/TalosDx/ul-fixes" />
+</xml>

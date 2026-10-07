@@ -1,11 +1,14 @@
 # UL Fixes — Undead Legacy quality-of-life fixes
 
-Two small Harmony mods for **7 Days to Die V2.6** with **Undead Legacy 2.7.40**.
+Small mods for **7 Days to Die V2.6** with **Undead Legacy 2.7.40**. Each one is independent — install only what you want.
 
-| Mod | What it fixes | Who installs it |
+| Mod | What it does | Who installs it |
 |---|---|---|
 | [Sleeping Trigger Zombies](#sleeping-trigger-zombies) | POI "trigger" zombies that pop in awake and run at you | Host / server only |
 | [UL Scope Fixes](#ul-scope-fixes) | UL picture-in-picture scopes: dark at night, middle-click zoom, zombies vanishing at max zoom, weapon too high | Every player (client-side) |
+| [UL Party Research Craft](#ul-party-research-craft) | Recipes researched by any party member are craftable by everyone in the party | Every player (client-side) |
+| [Keep Action Skills on Death](#keep-action-skills-on-death) | Removes only the action-skill loss from UL's death penalty | Host / server |
+| [Restore tvCRT_PlayerOff](#restore-tvcrt_playeroff) | Lets the FNS "Exham Priory" POIs load with UL | Host and every client |
 
 Русская версия — [ниже](#русский).
 
@@ -16,7 +19,8 @@ Two small Harmony mods for **7 Days to Die V2.6** with **Undead Legacy 2.7.40**.
    (e.g. `...\steamapps\common\7 Days To Die\Mods\`).
 3. Start the game. Undead Legacy ships BepInEx, so nothing else is needed (EAC must be off, as for UL itself).
 
-Both mods store nothing in your save — you can add or remove them at any time.
+Sleeping Trigger Zombies, UL Scope Fixes, Party Research and Keep Action Skills store nothing in your save —
+you can add or remove them at any time. Restore tvCRT is the exception (see its section).
 
 ---
 
@@ -80,6 +84,38 @@ Each fix is patched separately; if a UL update changes the code, only that fix d
 
 ---
 
+## UL Party Research Craft
+
+`Mods/zzzULPartyResearch`
+
+Undead Legacy checks recipe research only for the player who crafts. UL's research screen already knows what your
+party members have researched (`ULM_Research.KnownByPartyList`), but crafting ignores it. This mod adds a postfix to
+UL's recipe gate (`ULM_Recipe.IsUnlockedByReseachOrDefault`): if the recipe is locked for you but researched by a
+party member, it becomes craftable while you are grouped.
+
+- Covers the recipe gate only (workbenches, backpack crafting). Block upgrades (e.g. wood frames) still check your own research.
+- Everything is found by reflection; if a UL update renames something, the mod logs `missing required members; not patching`
+  and does nothing.
+- Client-side: each player who wants it installs it.
+
+## Keep Action Skills on Death
+
+`Mods/zzzUL_KeepActionSkills` (XML only)
+
+Removes just the effect group in `buffDeathFoodDrinkAdjust` that applies `actionSkillDeathPenalty` (UL's action-skill
+loss on Moderate/Standard death penalty). XP loss, Near Death Trauma and the Standard respawn stat reduction stay.
+
+## Restore tvCRT_PlayerOff
+
+`Mods/zzUL_RestoreTvCRT` (XML only)
+
+Undead Legacy removes the `tvCRT_PlayerOff` block. The POI pack *Vanilla Block POIs by FNS* uses it in
+`vb_FNS_Exham_Priory`, so those POIs fail to load ("Could not load prefab"). The mod re-adds the block as UL's own
+CRT TV (not craftable). Install on the host and on every client. **Do not remove it once the POIs have generated**
+in your world — the placed blocks would become unknown.
+
+---
+
 ## Building from source
 
 Requires the .NET SDK. The projects reference the game's DLLs; pass your game folder if it differs:
@@ -97,12 +133,15 @@ License: [MIT](LICENSE).
 
 ## Русский
 
-Два небольших Harmony-мода для **7 Days to Die V2.6** с **Undead Legacy 2.7.40**.
+Небольшие моды для **7 Days to Die V2.6** с **Undead Legacy 2.7.40**. Каждый независим — ставь только нужные.
 
 | Мод | Что исправляет | Кому ставить |
 |---|---|---|
 | Sleeping Trigger Zombies | зомби из триггер-зон, которые появляются сразу проснувшимися и бегут на тебя | только хосту / серверу |
 | UL Scope Fixes | прицелы UL: тёмные ночью, зум на колесико, пропадание зомби на макс. кратности, слишком высоко поднятое оружие | каждому игроку |
+| UL Party Research Craft | рецепты, исследованные любым членом группы, может крафтить вся группа | каждому игроку |
+| Keep Action Skills on Death | убирает из штрафа за смерть UL только потерю экшен-навыков | хосту / серверу |
+| Restore tvCRT_PlayerOff | позволяет загружаться POI «Exham Priory» из пака FNS | хосту и всем клиентам |
 
 ### Установка
 
@@ -110,7 +149,7 @@ License: [MIT](LICENSE).
 2. Скопируй нужные папки из `Mods/` в папку `Mods` игры.
 3. Запусти игру. BepInEx уже идёт в составе Undead Legacy (EAC выключен, как и для самого UL).
 
-Моды ничего не пишут в сохранение — их можно ставить и удалять в любой момент.
+Все моды, кроме Restore tvCRT, ничего не пишут в сохранение — их можно ставить и удалять в любой момент.
 
 ### Sleeping Trigger Zombies
 
@@ -139,3 +178,20 @@ License: [MIT](LICENSE).
 Работает для всех PIP-прицелов UL (малый 4×, средний 4–8×, большой 8–16×, встроенные у AUG и M202). ПНВ через прицел работает.
 
 Не баг: игра растворяет зомби дальше 90 м (120 м при прицеливании), поэтому даже в 16× дальше никого не видно.
+
+### UL Party Research Craft
+
+UL проверяет исследование рецепта только у того, кто крафтит. Мод добавляет к проверке UL: если рецепт закрыт для тебя,
+но исследован кем-то из группы, его можно крафтить, пока вы в группе. Касается только рецептов (верстаки, крафт в рюкзаке),
+улучшение блоков (например, деревянный каркас) по-прежнему требует собственного исследования. Ставить каждому игроку.
+
+### Keep Action Skills on Death
+
+Убирает из штрафа за смерть UL только потерю экшен-навыков. Потеря опыта, «Травма на грани смерти» и сниженные статы
+при возрождении остаются. Только XML, ставить на хост.
+
+### Restore tvCRT_PlayerOff
+
+UL удаляет блок `tvCRT_PlayerOff`, а POI `vb_FNS_Exham_Priory` из пака *Vanilla Block POIs by FNS* его использует и не
+загружается. Мод возвращает блок как обычный телевизор UL (не крафтится). Ставить на хост и всем клиентам.
+**Не удаляй мод после того, как эти POI сгенерировались в мире.**
