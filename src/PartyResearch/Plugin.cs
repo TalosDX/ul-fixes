@@ -14,7 +14,7 @@ namespace ULPartyResearch
     // research is known by a party member. Everything is resolved by reflection, so a UL update that
     // renames a member just disables the patch with an error in the log.
     // Client-side: every player who wants to craft with party research needs it.
-    [BepInPlugin("ul.party.research", "UL Party Research Craft", "1.0.0")]
+    [BepInPlugin("ul.party.research", "UL Party Research Craft", "0.2.0")]
     public class Plugin : BaseUnityPlugin
     {
         internal static ManualLogSource L;
@@ -66,7 +66,7 @@ namespace ULPartyResearch
             _get = manager.GetMethods(S).FirstOrDefault(m => m.Name == "Get" && m.GetParameters().Length == 1);
             _knownByParty = research?.GetMethods(I).FirstOrDefault(m => m.Name == "KnownByPartyList");
             _entityPlayerLocal = _knownByParty?.GetParameters().FirstOrDefault()?.ParameterType;
-            _recipeGetName = _gate?.GetParameters().ElementAtOrDefault(1)?.ParameterType?.GetMethods(I)
+            _recipeGetName = (_gate?.GetParameters().ElementAtOrDefault(1)?.ParameterType)?.GetMethods(I)
                 .FirstOrDefault(m => m.Name == "GetName" && m.GetParameters().Length == 0 && m.ReturnType == typeof(string));
 
             L.LogInfo(string.Format("resolve: gate={0} getUnlock={1} get={2} ", _gate != null, _getUnlock != null, _get != null)
@@ -78,7 +78,8 @@ namespace ULPartyResearch
                 return;
             }
 
-            new Harmony("ul.party.research").Patch(_gate, postfix: new HarmonyMethod(typeof(Plugin).GetMethod(nameof(GatePostfix), BindingFlags.Static | BindingFlags.NonPublic)));
+            var harmony = new Harmony("ul.party.research");
+            harmony.Patch(_gate, postfix: new HarmonyMethod(typeof(Plugin).GetMethod(nameof(GatePostfix), BindingFlags.Static | BindingFlags.NonPublic)));
             L.LogInfo("=== UL Party Research Craft active (patched gate) ===");
         }
 
