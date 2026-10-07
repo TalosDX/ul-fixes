@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="zzzUL_ScopeExposureFix" />
+	<DisplayName value="UL Scope Fixes" />
+	<Description value="Undead Legacy PIP scopes: night exposure/brightness, middle-click zoom changes only the scope, zombies no longer vanish at max magnification; per-weapon hip offset (fpvoffset). Client-side." />
+	<Author value="TalosDx" />
+	<Version value="1.2.0" />
+	<Website value="https://github.com/TalosDx/ul-fixes" />
+</xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="zzzUL_SleepingTriggers" />
+	<DisplayName value="Sleeping Trigger Zombies" />
+	<Description value="Trigger sleeper volumes spawn on approach as normal sleepers; a POI trigger runs the vanilla stealth check instead of force-waking; alarm/siren scripts wake zombies randomly without a target. Host/server-side." />
+	<Author value="TalosDx" />
+	<Version value="1.2.0" />
+	<Website value="https://github.com/TalosDx/ul-fixes" />
+</xml>

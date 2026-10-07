@@ -1,0 +1,2 @@
+# itemName=x,y,z (metres; y < 0 lowers the weapon). Edit in game: fpvoffset
+ulmGunKineticSniperRifleM1A=0,-0.06,0
