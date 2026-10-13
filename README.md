@@ -9,6 +9,7 @@ Small mods for **7 Days to Die V2.6** with **Undead Legacy 2.7.40**. Each one is
 | [UL Party Research Craft](#ul-party-research-craft) | Recipes researched by any party member are craftable by everyone in the party | Every player (client-side) |
 | [Keep Action Skills on Death](#keep-action-skills-on-death) | Removes only the action-skill loss from UL's death penalty | Host / server |
 | [Restore tvCRT_PlayerOff](#restore-tvcrt_playeroff) | Lets the FNS "Exham Priory" POIs load with UL | Host and every client |
+| [Sniper Ammo Books for .50 Cal](#sniper-ammo-books-for-50-cal) | Sniper book "AP/HP Ammo" perks also boost .50 cal rounds | Host / server (clients optional, for the tooltip) |
 
 Русская версия — [ниже](#русский).
 
@@ -114,6 +115,14 @@ Undead Legacy removes the `tvCRT_PlayerOff` block. The POI pack *Vanilla Block P
 CRT TV (not craftable). Install on the host and on every client. **Do not remove it once the POIs have generated**
 in your world — the placed blocks would become unknown.
 
+## Sniper Ammo Books for .50 Cal
+
+`Mods/zzzUL_Sniper50CalBooks` (XML only)
+
+The Sniper book perks 6 and 7 (+10% entity damage for AP / HP ammo) are wired only to 7.92mm rounds, so the M82 (.50 cal)
+gets nothing from them. The mod appends the same effect groups to `ulmAmmo50CalRoundAP` / `ulmAmmo50CalRoundHP` and
+updates the book tooltips (English, Russian). Stores nothing in the save.
+
 ---
 
 ## Building from source
@@ -142,6 +151,7 @@ License: [MIT](LICENSE).
 | UL Party Research Craft | рецепты, исследованные любым членом группы, может крафтить вся группа | каждому игроку |
 | Keep Action Skills on Death | убирает из штрафа за смерть UL только потерю экшен-навыков | хосту / серверу |
 | Restore tvCRT_PlayerOff | позволяет загружаться POI «Exham Priory» из пака FNS | хосту и всем клиентам |
+| Sniper Ammo Books for .50 Cal | перки книги «Снайпер» на ББ/Эксп. патроны работают и для .50 | хосту / серверу (клиентам — для подсказки) |
 
 ### Установка
 
@@ -195,3 +205,9 @@ UL проверяет исследование рецепта только у т
 UL удаляет блок `tvCRT_PlayerOff`, а POI `vb_FNS_Exham_Priory` из пака *Vanilla Block POIs by FNS* его использует и не
 загружается. Мод возвращает блок как обычный телевизор UL (не крафтится). Ставить на хост и всем клиентам.
 **Не удаляй мод после того, как эти POI сгенерировались в мире.**
+
+### Sniper Ammo Books for .50 Cal
+
+Пункты 6 и 7 книги «Снайпер» (+10% урона бронебойными / экспансивными) в UL привязаны только к патронам 7.92 мм,
+M82 (.50) от них ничего не получала. Мод добавляет те же бонусы патронам .50 и обновляет текст книги. Только XML,
+в сейв ничего не пишет.

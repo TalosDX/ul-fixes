@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="zzzUL_Sniper50CalBooks" />
+	<DisplayName value="UL - Sniper Ammo Books for .50 Cal" />
+	<Description value="The Sniper book perks 'AP Ammo' and 'HP Ammo' (+10% entity damage) now also apply to .50 cal AP/HP rounds, not only 7.92mm." />
+	<Author value="TalosDx" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/TalosDX/ul-fixes" />
+</xml>

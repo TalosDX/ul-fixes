@@ -1,0 +1,17 @@
+<configs>
+	<!-- Same effect groups UL gives ulmAmmo792mmRoundHP / ulmAmmo792mmRoundAP -->
+	<append xpath="/items/item[@name='ulmAmmo50CalRoundHP']">
+		<effect_group tiered="false">
+			<passive_effect operation="perc_add" name="EntityDamage" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperHPAmmo" operation="Equals" value="1" />
+			</passive_effect>
+		</effect_group>
+	</append>
+	<append xpath="/items/item[@name='ulmAmmo50CalRoundAP']">
+		<effect_group tiered="false">
+			<passive_effect operation="perc_add" name="EntityDamage" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperAPAmmo" operation="Equals" value="1" />
+			</passive_effect>
+		</effect_group>
+	</append>
+</configs>

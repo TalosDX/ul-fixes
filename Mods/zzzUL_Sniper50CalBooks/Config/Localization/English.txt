@@ -1,0 +1,3 @@
+﻿Key,English
+ulmBookSniper6Desc,"7.92mm and .50 cal AP ammo deal [decea3]+10%[-] additional Entity Damage"
+ulmBookSniper7Desc,"7.92mm and .50 cal HP ammo deal [decea3]+10%[-] additional Entity Damage"
