@@ -145,6 +145,7 @@ Undead Legacy 2.7.40 tooltips and descriptions checked against the actual effect
   - Moonshine and Painkillers no longer show damage mitigation that UL disabled; Fort Bites 40% (showed 50%);
   - rotting flesh dysentery risk 15% (showed 12%); coffee jar shows its cold resistance;
   - plastic-bottle beer, coffee and mineral water now use the proper tooltip (their buffs were hidden).
+- Knives, machetes and bows: the sneak attack bonus (x2 / x4) was hidden, now shown.
 - Miner helmet used a mod tooltip without armor stats; missing translations for loot stage, wetness and fertility added.
 - Magazine Extender shows the real +30–60%; the seed-loot helmet affix shows its real value (+200–2000%, as configured by UL).
 - Books: Fireman's Almanac 1 is +2 axe damage (not +10%), Sniper 4 is 10% faster reload (not 15%).
@@ -249,7 +250,7 @@ M82 (.50) от них ничего не получала. Мод добавля�
 ### Honest Tooltips
 
 Только текст и подсказки, механика не меняется. Подсказка брони теперь показывает шум и штраф выносливости (средняя +10% шума за вещь,
-тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (у чая/кофе/пива в банках было «360 min», у части конфет — устаревшие 5–10 мин). У конфет и напитков показаны скрытые эффекты: драже удачи (+5/+10% этап добычи), Atom Junkies (урон по блокам), жажда от стероидов, Fort Bites и Recog, отмычки Jail Breakers, −5% опыта у Hackers/Rock Busters, расход воды у Mega Crush; у самогона и обезболивающего убрано несуществующее смягчение урона; напитки в пластиковых бутылках получили нормальную подсказку.
+тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (у чая/кофе/пива в банках было «360 min», у части конфет — устаревшие 5–10 мин). У конфет и напитков показаны скрытые эффекты: драже удачи (+5/+10% этап добычи), Atom Junkies (урон по блокам), жажда от стероидов, Fort Bites и Recog, отмычки Jail Breakers, −5% опыта у Hackers/Rock Busters, расход воды у Mega Crush; у самогона и обезболивающего убрано несуществующее смягчение урона; напитки в пластиковых бутылках получили нормальную подсказку. У ножей, мачете и луков показан урон исподтишка (+200% / +400%).
 Исправлены числа в книгах (Альманах пожарного 1, Снайпер 4), дереве навыков UL (Штурмовик, дробовики, комбо дубинкой, медик,
 задержка дыхания), экшен-навыках (клинки, атлетика), удлинителе магазина, гнилом мясе, Fort Bites, обезболивающем и русских
 описаниях модификаций с разбросом по качеству. Ставить хосту и всем клиентам, в сейв ничего не пишет.

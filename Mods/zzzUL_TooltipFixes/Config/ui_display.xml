@@ -8,4 +8,7 @@
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='drugHackers']"><display_entry name="dHarvestExp" icon="ui_game_symbol_xp" title_key="ulmTipHarvestExp" display_type="Percent" display_leading_plus="true" /></append>
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='drugRockBusters']"><display_entry name="dHarvestExp" icon="ui_game_symbol_xp" title_key="ulmTipHarvestExp" display_type="Percent" display_leading_plus="true" /></append>
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='waterMegaCrush']"><display_entry name="dWaterPerStamina" icon="symbol_water" title_key="ulmTipWaterPerStamina" display_type="Percent" display_leading_plus="true" negative_preferred="true" /></append>
+	<!-- Knives, machetes, bows: sneak attack bonus (DamageBonus) has display values, UL removed the tooltip line -->
+	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='meleeKnife']"><display_entry name="dEntityDamageSneak" icon="symbol_damage" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" /></append>
+	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='rangedBow']"><display_entry name="dEntityDamageSneak" icon="symbol_damage" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" /></append>
 </configs>
