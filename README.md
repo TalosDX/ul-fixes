@@ -146,6 +146,10 @@ Undead Legacy 2.7.40 tooltips and descriptions checked against the actual effect
   - rotting flesh dysentery risk 15% (showed 12%); coffee jar shows its cold resistance;
   - plastic-bottle beer, coffee and mineral water now use the proper tooltip (their buffs were hidden).
 - Knives, machetes and bows: the sneak attack bonus (x2 / x4) was hidden, now shown.
+- Mods: AR/MG damage gloves +5–50% (showed 4.5–45%), broadcast radio +1–9 m (showed 0.1–9); now shown: Improved Sneaking
+  noise / crouch speed / enemy search duration, cooling mesh and insulated liner fire+electric damage resist, charge extender
+  max charges, supercharger engine torque, muzzle brake horizontal recoil and handling; Stealth Boots got their tooltip back.
+- Moonshine heals 20 HP/s for ~60 s (showed +600).
 - Miner helmet used a mod tooltip without armor stats; missing translations for loot stage, wetness and fertility added.
 - Magazine Extender shows the real +30–60%; the seed-loot helmet affix shows its real value (+200–2000%, as configured by UL).
 - Books: Fireman's Almanac 1 is +2 axe damage (not +10%), Sniper 4 is 10% faster reload (not 15%).
@@ -250,7 +254,7 @@ M82 (.50) от них ничего не получала. Мод добавля�
 ### Honest Tooltips
 
 Только текст и подсказки, механика не меняется. Подсказка брони теперь показывает шум и штраф выносливости (средняя +10% шума за вещь,
-тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (у чая/кофе/пива в банках было «360 min», у части конфет — устаревшие 5–10 мин). У конфет и напитков показаны скрытые эффекты: драже удачи (+5/+10% этап добычи), Atom Junkies (урон по блокам), жажда от стероидов, Fort Bites и Recog, отмычки Jail Breakers, −5% опыта у Hackers/Rock Busters, расход воды у Mega Crush; у самогона и обезболивающего убрано несуществующее смягчение урона; напитки в пластиковых бутылках получили нормальную подсказку. У ножей, мачете и луков показан урон исподтишка (+200% / +400%).
+тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (у чая/кофе/пива в банках было «360 min», у части конфет — устаревшие 5–10 мин). У конфет и напитков показаны скрытые эффекты: драже удачи (+5/+10% этап добычи), Atom Junkies (урон по блокам), жажда от стероидов, Fort Bites и Recog, отмычки Jail Breakers, −5% опыта у Hackers/Rock Busters, расход воды у Mega Crush; у самогона и обезболивающего убрано несуществующее смягчение урона; напитки в пластиковых бутылках получили нормальную подсказку. У ножей, мачете и луков показан урон исподтишка (+200% / +400%). Модификации: перчатки на автоматы +5–50% (было 4,5–45%), радио +1–9 м (было 0,1–9), показаны скрытые эффекты «Улучшенной скрытности», охлаждающей сетки и утеплителя (защита от огня и тока), расширителя заряда, турбины, дульного тормоза; «Бесшумным ботинкам» возвращена подсказка. Самогон лечит 20 ед./с ~60 с (было «+600»).
 Исправлены числа в книгах (Альманах пожарного 1, Снайпер 4), дереве навыков UL (Штурмовик, дробовики, комбо дубинкой, медик,
 задержка дыхания), экшен-навыках (клинки, атлетика), удлинителе магазина, гнилом мясе, Fort Bites, обезболивающем и русских
 описаниях модификаций с разбросом по качеству. Ставить хосту и всем клиентам, в сейв ничего не пишет.

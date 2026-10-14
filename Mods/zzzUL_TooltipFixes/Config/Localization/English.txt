@@ -12,3 +12,7 @@ ulmTipWaterPerStamina,Water Used per Stamina
 statLootGamestage,Loot Stage
 statWetnessBuildUp,Wetness Build-up
 FertileLevel,Fertility
+ulmTipCrouchSpeed,Crouch Speed
+ulmTipHeatElecResist,Fire and Electric Damage Resist
+ulmTipVehicleTorque,Engine Torque
+ulmTipRecoilHorizontal,Horizontal Recoil

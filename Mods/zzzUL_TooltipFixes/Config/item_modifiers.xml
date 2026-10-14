@@ -3,4 +3,19 @@
 	<set xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']/property[@name='dMagazineSize']/@value">.3,.6</set>
 	<!-- Seed loot helmet affix: effect is LootProb perc_add 2..20 (+200..2000%) -->
 	<set xpath="/item_modifiers/item_modifier[@name='ulmModArmorHelmetLootProbSeeds']/property[@name='dLootProb']/@value">2,20</set>
+	<!-- Assault rifle / MG gloves: effect is +5..50% -->
+	<set xpath="/item_modifiers/item_modifier[@name='ulmModArmorGlovesDamageMachineGuns']/property[@name='dDamageMachineGuns']/@value">.05,.5</set>
+	<!-- Broadcast radio: CraftingBroadcastRange +1..9 -->
+	<set xpath="/item_modifiers/item_modifier[@name='ulmModArmorBroadcastRadio']/property[@name='dBroadcastRange']/@value">1,9</set>
+	<!-- Improved sneaking (outfit affix, while crouching): noise, crouch speed and enemy search duration were hidden -->
+	<append xpath="/item_modifiers/item_modifier[@name='ulmModArmorOutfitSneakBoost']"><property name="dNoiseMultiplier" value="-.03,-.2" /><property name="dCrouchSpeed" value=".02,.2" /><property name="dSearchDuration" value=".05,.3" /></append>
+	<!-- Cooling mesh / insulated liner: ElementalDamageResist 1 vs heat and electrical damage was hidden -->
+	<append xpath="/item_modifiers/item_modifier[@name='ulmModArmorCoolingMesh']"><property name="dHeatElecResist" value="1" /></append>
+	<append xpath="/item_modifiers/item_modifier[@name='ulmModArmorInsulatedLiner']"><property name="dHeatElecResist" value="1" /></append>
+	<!-- Charge extender: +10..100 max charges was hidden -->
+	<append xpath="/item_modifiers/item_modifier[@name='ulmModMeleeChargeExtender']"><property name="dChargesMax" value="10,100" /></append>
+	<!-- Muzzle brake: horizontal recoil and handling were hidden -->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']"><property name="dRecoilHorizontal" value="-.02,-.2" /><property name="dWeaponHandling" value=".01,.1" /></append>
+	<!-- Stealth boots: UL removed the vanilla tooltip; noise -10% (-20% with the Urban Combat landing perk) -->
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorStealthBoots']"><property name="DisplayType" value="modNoiseStaminaReduction" /><effect_group tiered="false"><display_value name="dNoiseMultiplier" value="-.1" /></effect_group></append>
 </configs>

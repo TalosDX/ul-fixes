@@ -172,4 +172,6 @@
 	<append xpath="/items/item[@name='ulmDrinkPlasticBottleMineralWater']"><property name="DisplayType" value="waterGoldenrodRedTea" /></append>
 	<!-- Miner helmet used the generic mod tooltip (no armor stats) -->
 	<set xpath="/items/item[@name='armorMinerHelmet']/property[@name='DisplayType']/@value">armorMedium</set>
+	<!-- Moonshine: HealthChangeOT +20/s for ~60 s -->
+	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']//display_value[@name='dHealthAmount']/@value">1200</set>
 </configs>
