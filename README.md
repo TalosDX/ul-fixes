@@ -21,7 +21,7 @@ Small mods for **7 Days to Die V2.6** with **Undead Legacy 2.7.40**. Each one is
    (e.g. `...\steamapps\common\7 Days To Die\Mods\`).
 3. Start the game. Undead Legacy ships BepInEx, so nothing else is needed (EAC must be off, as for UL itself).
 
-Sleeping Trigger Zombies, UL Scope Fixes, Party Research and Keep Action Skills store nothing in your save —
+All mods except Restore tvCRT store nothing in your save —
 you can add or remove them at any time. Restore tvCRT is the exception (see its section).
 
 ---
@@ -132,6 +132,7 @@ Undead Legacy 2.7.40 tooltips and descriptions checked against the actual effect
 
 - **Armor**: noise and stamina penalty were never shown (UL removed the display values). Medium armor: +10% noise and -5.6%
   running stamina regen per piece, heavy: +20% / -9%. Now visible on all 108 affected pieces.
+  Light armor has no noise or stamina penalty, so it shows none.
 - **Consumable durations**: the tooltip formats durations as seconds, but UL wrote minutes (drugs showed "6s" for 6 minutes);
   several values were also stale (Covert Cats, Eye Kandy, Hackers, Health Bar, Rock Busters, Skull Crushers, Sugar Butts, Nerd Tats,
   Oh Shitz Drops last 6 min). All set to the real buff duration.
@@ -240,7 +241,7 @@ M82 (.50) от них ничего не получала. Мод добавля�
 ### Honest Tooltips
 
 Только текст и подсказки, механика не меняется. Подсказка брони теперь показывает шум и штраф выносливости (средняя +10% шума за вещь,
-тяжёлая +20%). Длительность еды и препаратов показывается правильно (раньше «6 с» вместо 6 минут, у части препаратов — устаревшие числа).
+тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (раньше «6 с» вместо 6 минут, у части препаратов — устаревшие числа).
 Исправлены числа в книгах (Альманах пожарного 1, Снайпер 4), дереве навыков UL (Штурмовик, дробовики, комбо дубинкой, медик,
 задержка дыхания), экшен-навыках (клинки, атлетика), удлинителе магазина, гнилом мясе, Fort Bites, обезболивающем и русских
 описаниях модификаций с разбросом по качеству. Ставить хосту и всем клиентам, в сейв ничего не пишет.
