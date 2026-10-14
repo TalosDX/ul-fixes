@@ -1,113 +1,113 @@
 <configs>
-	<!-- Armor tooltips: noise / stamina (running) penalty per piece, same values as the passive effects -->
-	<append xpath="/items/item[@name='armorLumberjackHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorLumberjackOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorLumberjackGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorLumberjackBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorPreacherHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorPreacherOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorPreacherGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorPreacherBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRogueHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRogueOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRogueGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRogueBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorEnforcerHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorEnforcerOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorEnforcerGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorEnforcerBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorBikerHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorBikerOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorBikerGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorBikerBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRangerHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRangerOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRangerGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRangerBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorAssassinHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorAssassinOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorAssassinGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorAssassinBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorMinerHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorMinerOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorMinerGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorMinerBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='armorNomadHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorNomadOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorNomadGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorNomadBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRaiderHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRaiderOutfit']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRaiderGloves']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='armorRaiderBoots']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Green']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Savanna']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Urban']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Woodlands']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Black']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Desert']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Green']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Savanna']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet3Black']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet3Olive']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorArmyHelmet3Sand']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorBoneHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorBrodieHelmetGreen']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorBrodieHelmetGray']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorBrodieHelmetMetal']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorCowboyHatDesert']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorCowboyHatSheriff']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorCowboyHatBrown']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorFirefighterHelmetRusty']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorFirefighterHelmetBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorFirefighterHelmetRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorHardHatYellow']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorHardHatBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorLeatherHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMetalHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteGreen']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteOrange']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhitePink']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhitePurple']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackGreen']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackOrange']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackPink']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackPurple']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlueBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlueRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlueWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetGold']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetRedBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetRedBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetRedWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetTan']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanBlack']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanBlue']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanRed']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanWhite']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorSwatHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorSafariHat']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorWinterHat1']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorWinterHat2']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
-	<append xpath="/items/item[@name='ulmArmorExperimentalMilitaryHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
+	<!-- Armor tooltips: noise / stamina (running) penalty per piece. UL reads "#d..." tooltip entries from item PROPERTIES, not display_value -->
+	<append xpath="/items/item[@name='armorLumberjackHelmet']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorLumberjackOutfit']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorLumberjackGloves']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorLumberjackBoots']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorPreacherHelmet']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorPreacherOutfit']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorPreacherGloves']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorPreacherBoots']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorRogueHelmet']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorRogueOutfit']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorRogueGloves']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorRogueBoots']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorEnforcerHelmet']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorEnforcerOutfit']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorEnforcerGloves']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorEnforcerBoots']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorBikerHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorBikerOutfit']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorBikerGloves']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorBikerBoots']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRangerHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRangerOutfit']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRangerGloves']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRangerBoots']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorAssassinHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorAssassinOutfit']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorAssassinGloves']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorAssassinBoots']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorMinerHelmet']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorMinerOutfit']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorMinerGloves']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorMinerBoots']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='armorNomadHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorNomadOutfit']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorNomadGloves']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorNomadBoots']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRaiderHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRaiderOutfit']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRaiderGloves']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='armorRaiderBoots']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Green']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Savanna']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Urban']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet1Woodlands']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Black']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Desert']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Green']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet2Savanna']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet3Black']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet3Olive']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorArmyHelmet3Sand']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorBoneHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorBrodieHelmetGreen']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorBrodieHelmetGray']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorBrodieHelmetMetal']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorCowboyHatDesert']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorCowboyHatSheriff']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorCowboyHatBrown']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorFirefighterHelmetRusty']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorFirefighterHelmetBlack']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorFirefighterHelmetRed']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorHardHatYellow']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorHardHatBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorLeatherHelmet']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMetalHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteGreen']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteOrange']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhitePink']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhitePurple']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetWhiteRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackGreen']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackOrange']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackPink']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackPurple']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlackWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlueBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlueRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetBlueWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetCamoWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetDigitalWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetGold']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetRedBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetRedBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetRedWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetTan']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanBlack']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanBlue']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanRed']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorMotoHelmetTanWhite']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorSwatHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
+	<append xpath="/items/item[@name='ulmArmorSafariHat']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorWinterHat1']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorWinterHat2']"><property name="dNoiseMultiplier" value=".1" /><property name="dStaminaChangeOT" value="-.0562" /></append>
+	<append xpath="/items/item[@name='ulmArmorExperimentalMilitaryHelmet']"><property name="dNoiseMultiplier" value=".2" /><property name="dStaminaChangeOT" value="-.09" /></append>
 	<!-- Consumable durations: the " min" suffix is printed after the raw number, so the value must be minutes (buff duration CVar / 60) -->
 	<set xpath="/items/item[@name='drugVitamins']//display_value[@name='dDuration']/@value">12</set>
 	<set xpath="/items/item[@name='drugPainkillers']//display_value[@name='dDuration']/@value">3</set>
