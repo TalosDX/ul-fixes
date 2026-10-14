@@ -1,0 +1,11 @@
+<configs>
+	<!-- UL skill tree: description arguments matched to the actual effects -->
+	<!-- Assault class: mining tools get the same +5% as melee/explosives -->
+	<set xpath="/recipes/progression[@name='skillTreeStrengthClass']/@desc">skillTreeStrengthClassDesc;40;20;5%;5%;5%</set>
+	<!-- Shotgun handling: +10% fire rate and reload per level -->
+	<set xpath="/recipes/progression[@name='skillTreeShotgunHandling']/@desc">skillTreeShotgunHandlingDesc;10%</set>
+	<!-- Club combo: buffClubDamageComboBonus is +100% at every level -->
+	<set xpath="/recipes/progression[@name='skillTreeClubDamageCombo']/@desc">skillTreeClubDamageComboDesc;3;100%</set>
+	<!-- Medic: healing +10%, EXP +20% per level (MinEventActionULM_Heal) -->
+	<set xpath="/recipes/progression[@name='skillTreeMedic']/@desc">skillTreeMedicDesc;10%;20%</set>
+</configs>

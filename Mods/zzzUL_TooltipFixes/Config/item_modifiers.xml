@@ -1,0 +1,6 @@
+<configs>
+	<!-- Magazine extender: effect is +30..60% -->
+	<set xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']/property[@name='dMagazineSize']/@value">.3,.6</set>
+	<!-- Seed loot helmet affix: effect is LootProb perc_add 2..20 (+200..2000%) -->
+	<set xpath="/item_modifiers/item_modifier[@name='ulmModArmorHelmetLootProbSeeds']/property[@name='dLootProb']/@value">2,20</set>
+</configs>

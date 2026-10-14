@@ -10,6 +10,7 @@ Small mods for **7 Days to Die V2.6** with **Undead Legacy 2.7.40**. Each one is
 | [Keep Action Skills on Death](#keep-action-skills-on-death) | Removes only the action-skill loss from UL's death penalty | Host / server |
 | [Restore tvCRT_PlayerOff](#restore-tvcrt_playeroff) | Lets the FNS "Exham Priory" POIs load with UL | Host and every client |
 | [Sniper Ammo Books for .50 Cal](#sniper-ammo-books-for-50-cal) | Sniper book "AP/HP Ammo" perks also boost .50 cal rounds | Host / server (clients optional, for the tooltip) |
+| [Honest Tooltips](#honest-tooltips) | Tooltips and descriptions that state wrong numbers (armor noise, durations, books, skills, mods) | Host and every client |
 
 Русская версия — [ниже](#русский).
 
@@ -123,6 +124,30 @@ The Sniper book perks 6 and 7 (+10% entity damage for AP / HP ammo) are wired on
 gets nothing from them. The mod appends the same effect groups to `ulmAmmo50CalRoundAP` / `ulmAmmo50CalRoundHP` and
 updates the book tooltips (English, Russian). Stores nothing in the save.
 
+## Honest Tooltips
+
+`Mods/zzzUL_TooltipFixes` (XML only, gameplay unchanged)
+
+Undead Legacy 2.7.40 tooltips and descriptions checked against the actual effects; only the text/display is changed:
+
+- **Armor**: noise and stamina penalty were never shown (UL removed the display values). Medium armor: +10% noise and -5.6%
+  running stamina regen per piece, heavy: +20% / -9%. Now visible on all 108 affected pieces.
+- **Consumable durations**: the tooltip formats durations as seconds, but UL wrote minutes (drugs showed "6s" for 6 minutes);
+  several values were also stale (Covert Cats, Eye Kandy, Hackers, Health Bar, Rock Busters, Skull Crushers, Sugar Butts, Nerd Tats,
+  Oh Shitz Drops last 6 min). All set to the real buff duration.
+- Rotting flesh dysentery risk 15% (showed 12%); Fort Bites damage mitigation 40% (showed 50%); Painkillers no longer show the
+  10% mitigation that UL disabled.
+- Magazine Extender shows the real +30–60%; the seed-loot helmet affix shows its real value (+200–2000%, as configured by UL).
+- Books: Fireman's Almanac 1 is +2 axe damage (not +10%), Sniper 4 is 10% faster reload (not 15%).
+- UL skill tree: Assault class mining tools +5% (not 10%), Shotgun Handling +10%/level (not 5%), Club combo +100% at every level
+  (levels 2–3 add nothing), Medic EXP +20%/level (not 25%), Hold Breath no longer promises +40 s underwater (not implemented).
+- Action skills: Blades text listed attack speed and meat harvesting that don't exist (it is damage, block damage,
+  dismemberment up to 25% and head damage up to 50%); Athletics is up to 25% (not 20%).
+- Russian texts: mods with quality-scaled bonuses showed fixed old numbers (Hunter, Diamond Tip, Fireman's Axe, Structural Brace,
+  Tempered Blade, Reserve Fuel Tank, Bellows, gloves damage); crop seeds no longer promise a 50% seed return.
+
+Stores nothing in the save. Localization and tooltips are client-side, so install on the host and every client.
+
 ---
 
 ## Building from source
@@ -211,3 +236,11 @@ UL удаляет блок `tvCRT_PlayerOff`, а POI `vb_FNS_Exham_Priory` из 
 Пункты 6 и 7 книги «Снайпер» (+10% урона бронебойными / экспансивными) в UL привязаны только к патронам 7.92 мм,
 M82 (.50) от них ничего не получала. Мод добавляет те же бонусы патронам .50 и обновляет текст книги. Только XML,
 в сейв ничего не пишет.
+
+### Honest Tooltips
+
+Только текст и подсказки, механика не меняется. Подсказка брони теперь показывает шум и штраф выносливости (средняя +10% шума за вещь,
+тяжёлая +20%). Длительность еды и препаратов показывается правильно (раньше «6 с» вместо 6 минут, у части препаратов — устаревшие числа).
+Исправлены числа в книгах (Альманах пожарного 1, Снайпер 4), дереве навыков UL (Штурмовик, дробовики, комбо дубинкой, медик,
+задержка дыхания), экшен-навыках (клинки, атлетика), удлинителе магазина, гнилом мясе, Fort Bites, обезболивающем и русских
+описаниях модификаций с разбросом по качеству. Ставить хосту и всем клиентам, в сейв ничего не пишет.

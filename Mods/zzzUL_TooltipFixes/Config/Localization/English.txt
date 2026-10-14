@@ -1,0 +1,7 @@
+﻿Key,English
+ulmBookFiremansAlmanac1Desc,[decea3]+2[-] Axe Entity Damage
+ulmBookSniper4Desc,Sniper Rifles reload [decea3]10%[-] faster.
+skillTreeClubDamageComboDesc,[decea3]{0}[-] successive hits with Clubs cause the last hit to deal additional [decea3]{1}[-] Physical Damage (the bonus does not grow with further levels)
+skillTreeHoldBreathDesc,[decea3]{0}[-] to Maximum Food/Water\n[decea3]{2}[-] reduced chance of Dysentery when using consumables
+actionPerkBladesDesc,Improves blade weapon entity and block damage and dismemberment chance up to [decea3]25%[-] and head damage up to [decea3]50%[-]. Use blade weapons to improve this skill.
+actionPerkAthleticsDesc,"Improves your stamina regeneration rate while running and maximum stamina up to [decea3]25%[-]. Walk, run, jump or swim to improve the skill."
