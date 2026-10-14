@@ -133,11 +133,19 @@ Undead Legacy 2.7.40 tooltips and descriptions checked against the actual effect
 - **Armor**: noise and stamina penalty were never shown (UL removed the display values). Medium armor: +10% noise and -5.6%
   running stamina regen per piece, heavy: +20% / -9%. Now visible on all 108 affected pieces.
   Light armor has no noise or stamina penalty, so it shows none.
-- **Consumable durations**: the tooltip formats durations as seconds, but UL wrote minutes (drugs showed "6s" for 6 minutes);
-  several values were also stale (Covert Cats, Eye Kandy, Hackers, Health Bar, Rock Busters, Skull Crushers, Sugar Butts, Nerd Tats,
-  Oh Shitz Drops last 6 min). All set to the real buff duration.
-- Rotting flesh dysentery risk 15% (showed 12%); Fort Bites damage mitigation 40% (showed 50%); Painkillers no longer show the
-  10% mitigation that UL disabled.
+- **Consumable durations**: the tooltip prints the raw number with " min", but some values were in seconds
+  (jar teas/coffee/beer showed "360 min") or stale (several candies said 5 or 10 min for a 6 min buff). All set to the real
+  buff duration in minutes.
+- **Candy and drinks**, hidden or wrong lines:
+  - Eye Kandy: +5 / +10% loot stage was never shown (name mismatch + missing translation);
+  - Atom Junkies: +50% explosive block damage added;
+  - Steroids and Fort Bites: passive thirst +450%, Recog: +720% (shown now);
+  - Jail Breakers: lockpick durability +200% and "lockpicks don't break";
+  - Hackers / Rock Busters: -5% harvesting XP; Mega Crush: +120% water used per stamina;
+  - Moonshine and Painkillers no longer show damage mitigation that UL disabled; Fort Bites 40% (showed 50%);
+  - rotting flesh dysentery risk 15% (showed 12%); coffee jar shows its cold resistance;
+  - plastic-bottle beer, coffee and mineral water now use the proper tooltip (their buffs were hidden).
+- Miner helmet used a mod tooltip without armor stats; missing translations for loot stage, wetness and fertility added.
 - Magazine Extender shows the real +30–60%; the seed-loot helmet affix shows its real value (+200–2000%, as configured by UL).
 - Books: Fireman's Almanac 1 is +2 axe damage (not +10%), Sniper 4 is 10% faster reload (not 15%).
 - UL skill tree: Assault class mining tools +5% (not 10%), Shotgun Handling +10%/level (not 5%), Club combo +100% at every level
@@ -241,7 +249,7 @@ M82 (.50) от них ничего не получала. Мод добавля�
 ### Honest Tooltips
 
 Только текст и подсказки, механика не меняется. Подсказка брони теперь показывает шум и штраф выносливости (средняя +10% шума за вещь,
-тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (раньше «6 с» вместо 6 минут, у части препаратов — устаревшие числа).
+тяжёлая +20%, у лёгкой шума нет). Длительность еды и препаратов показывается правильно (у чая/кофе/пива в банках было «360 min», у части конфет — устаревшие 5–10 мин). У конфет и напитков показаны скрытые эффекты: драже удачи (+5/+10% этап добычи), Atom Junkies (урон по блокам), жажда от стероидов, Fort Bites и Recog, отмычки Jail Breakers, −5% опыта у Hackers/Rock Busters, расход воды у Mega Crush; у самогона и обезболивающего убрано несуществующее смягчение урона; напитки в пластиковых бутылках получили нормальную подсказку.
 Исправлены числа в книгах (Альманах пожарного 1, Снайпер 4), дереве навыков UL (Штурмовик, дробовики, комбо дубинкой, медик,
 задержка дыхания), экшен-навыках (клинки, атлетика), удлинителе магазина, гнилом мясе, Fort Bites, обезболивающем и русских
 описаниях модификаций с разбросом по качеству. Ставить хосту и всем клиентам, в сейв ничего не пишет.

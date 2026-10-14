@@ -4,6 +4,6 @@
 	<DisplayName value="UL - Honest Tooltips" />
 	<Description value="Text and tooltip fixes for Undead Legacy: shows armor noise and stamina penalties, correct consumable durations, and corrects book, skill and mod descriptions that state wrong numbers. Gameplay is unchanged." />
 	<Author value="TalosDx" />
-	<Version value="1.0.0" />
+	<Version value="1.1.0" />
 	<Website value="https://github.com/TalosDX/ul-fixes" />
 </xml>

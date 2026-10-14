@@ -5,3 +5,10 @@ skillTreeClubDamageComboDesc,[decea3]{0}[-] successive hits with Clubs cause the
 skillTreeHoldBreathDesc,[decea3]{0}[-] to Maximum Food/Water\n[decea3]{2}[-] reduced chance of Dysentery when using consumables
 actionPerkBladesDesc,Improves blade weapon entity and block damage and dismemberment chance up to [decea3]25%[-] and head damage up to [decea3]50%[-]. Use blade weapons to improve this skill.
 actionPerkAthleticsDesc,"Improves your stamina regeneration rate while running and maximum stamina up to [decea3]25%[-]. Walk, run, jump or swim to improve the skill."
+ulmTipThirstRate,Passive Thirst
+ulmTipLockpickBreak,Lockpick Break Chance
+ulmTipHarvestExp,Harvesting XP
+ulmTipWaterPerStamina,Water Used per Stamina
+statLootGamestage,Loot Stage
+statWetnessBuildUp,Wetness Build-up
+FertileLevel,Fertility

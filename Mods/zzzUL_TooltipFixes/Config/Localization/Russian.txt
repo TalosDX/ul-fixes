@@ -15,3 +15,10 @@ modVehicleReserveFuelTankDesc,Увеличивает запас топлива �
 toolBellowsDesc,"Улучшает приток воздуха в кузнице, увеличивая скорость изготовления на [decea3]15–50%[-] (зависит от качества)."
 ulmModArmorGlovesDamageMachineGunsDesc,Увеличивает урон штурмовыми винтовками и пулемётами по врагам на [decea3]5–50%[-] (зависит от качества).
 ulmModArmorGlovesDamageSMGDesc,Увеличивает урон пистолетами-пулемётами по врагам на [decea3]5–50%[-] (зависит от качества).
+ulmTipThirstRate,Пассивная жажда
+ulmTipLockpickBreak,Шанс поломки отмычки
+ulmTipHarvestExp,Опыт за добычу
+ulmTipWaterPerStamina,Расход воды на выносливость
+statLootGamestage,Этап добычи
+statWetnessBuildUp,Скорость намокания
+FertileLevel,Плодородие

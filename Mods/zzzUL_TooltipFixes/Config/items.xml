@@ -108,41 +108,68 @@
 	<append xpath="/items/item[@name='ulmArmorWinterHat1']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
 	<append xpath="/items/item[@name='ulmArmorWinterHat2']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".1" /><display_value name="dStaminaChangeOT" value="-.0562" /></effect_group></append>
 	<append xpath="/items/item[@name='ulmArmorExperimentalMilitaryHelmet']"><effect_group tiered="false"><display_value name="dNoiseMultiplier" value=".2" /><display_value name="dStaminaChangeOT" value="-.09" /></effect_group></append>
-	<!-- Consumable durations in seconds (display_type="Time"), taken from the buff duration CVar each item adds -->
-	<set xpath="/items/item[@name='drugVitamins']//display_value[@name='dDuration']/@value">720</set>
-	<set xpath="/items/item[@name='drugPainkillers']//display_value[@name='dDuration']/@value">180</set>
-	<set xpath="/items/item[@name='drugSteroids']//display_value[@name='dDuration']/@value">1800</set>
-	<set xpath="/items/item[@name='drugRecog']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugFortBites']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='foodBurntSmoothie']//display_value[@name='dDuration']/@value">300</set>
-	<set xpath="/items/item[@name='foodOasisSmoothie']//display_value[@name='dDuration']/@value">300</set>
-	<set xpath="/items/item[@name='foodFrostbiteSmoothie']//display_value[@name='dDuration']/@value">300</set>
-	<set xpath="/items/item[@name='foodAtomicSmoothie']//display_value[@name='dDuration']/@value">300</set>
-	<set xpath="/items/item[@name='drugAtomJunkies']//display_value[@name='dDuration']/@value">300</set>
-	<set xpath="/items/item[@name='drugCovertCats']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugEyeKandy']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugHackers']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugHealthBar']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugJailBreakers']//display_value[@name='dDuration']/@value">600</set>
-	<set xpath="/items/item[@name='drugNerdTats']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugOhShitzDrops']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugRockBusters']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugSkullCrushers']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drugSugarButts']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='foodShamChowder']//display_value[@name='dDuration']/@value">600</set>
-	<set xpath="/items/item[@name='foodPumpkinCheesecake']//display_value[@name='dDuration']/@value">300</set>
-	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']//display_value[@name='dDuration']/@value">900</set>
-	<set xpath="/items/item[@name='drinkCanMegaCrush']//display_value[@name='dDuration']/@value">120</set>
-	<set xpath="/items/item[@name='drinkJarBlackStrapCoffee']//display_value[@name='dDuration']/@value">360</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']//display_value[@name='dDuration']/@value">60</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']//display_value[@name='dDuration']/@value">180</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']//display_value[@name='dDuration']/@value">240</set>
-	<set xpath="/items/item[@name='ulmDrinkPlasticBottleRedTea']//display_value[@name='dDuration']/@value">240</set>
-	<set xpath="/items/item[@name='ulmDrinkBeer']//display_value[@name='dDuration']/@value">60</set>
+	<!-- Consumable durations: the " min" suffix is printed after the raw number, so the value must be minutes (buff duration CVar / 60) -->
+	<set xpath="/items/item[@name='drugVitamins']//display_value[@name='dDuration']/@value">12</set>
+	<set xpath="/items/item[@name='drugPainkillers']//display_value[@name='dDuration']/@value">3</set>
+	<set xpath="/items/item[@name='drugSteroids']//display_value[@name='dDuration']/@value">30</set>
+	<set xpath="/items/item[@name='drugRecog']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugFortBites']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='foodBurntSmoothie']//display_value[@name='dDuration']/@value">5</set>
+	<set xpath="/items/item[@name='foodOasisSmoothie']//display_value[@name='dDuration']/@value">5</set>
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']//display_value[@name='dDuration']/@value">5</set>
+	<set xpath="/items/item[@name='foodAtomicSmoothie']//display_value[@name='dDuration']/@value">5</set>
+	<set xpath="/items/item[@name='drugAtomJunkies']//display_value[@name='dDuration']/@value">5</set>
+	<set xpath="/items/item[@name='drugCovertCats']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugEyeKandy']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugHackers']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugHealthBar']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugJailBreakers']//display_value[@name='dDuration']/@value">10</set>
+	<set xpath="/items/item[@name='drugNerdTats']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugOhShitzDrops']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugRockBusters']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugSkullCrushers']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drugSugarButts']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='foodShamChowder']//display_value[@name='dDuration']/@value">10</set>
+	<set xpath="/items/item[@name='foodPumpkinCheesecake']//display_value[@name='dDuration']/@value">5</set>
+	<set xpath="/items/item[@name='drinkJarPureMineralWater']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drinkJarRedTea']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']//display_value[@name='dDuration']/@value">15</set>
+	<set xpath="/items/item[@name='drinkCanMegaCrush']//display_value[@name='dDuration']/@value">2</set>
+	<set xpath="/items/item[@name='drinkJarCoffee']//display_value[@name='dDuration']/@value">3</set>
+	<set xpath="/items/item[@name='drinkJarBlackStrapCoffee']//display_value[@name='dDuration']/@value">6</set>
+	<set xpath="/items/item[@name='drinkJarBeer']//display_value[@name='dDuration']/@value">1</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']//display_value[@name='dDuration']/@value">1</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']//display_value[@name='dDuration']/@value">3</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']//display_value[@name='dDuration']/@value">4</set>
+	<set xpath="/items/item[@name='ulmDrinkPlasticBottleRedTea']//display_value[@name='dDuration']/@value">4</set>
+	<set xpath="/items/item[@name='ulmDrinkBeer']//display_value[@name='dDuration']/@value">1</set>
 	<!-- Rotting flesh rolls 15 for dysentery, not 12 -->
 	<set xpath="/items/item[@name='foodRottingFlesh']//display_value[@name='dDysenteryRisk']/@value">.15</set>
 	<!-- Fort Bites: GeneralDamageResist 0.4 -->
 	<set xpath="/items/item[@name='drugFortBites']//display_value[@name='dHealthLoss']/@value">.4</set>
-	<!-- Painkillers: UL commented out the damage resist, so there is no mitigation to show -->
+	<!-- Painkillers and Moonshine: UL commented out their damage resist, nothing to show -->
 	<remove xpath="/items/item[@name='drugPainkillers']//display_value[@name='dHealthLoss']" />
+	<remove xpath="/items/item[@name='drinkJarGrandpasMoonshine']//display_value[@name='dHealthLoss']" />
+	<!-- Eye Kandy: the tooltip reads dLootGamestage*, the item had dLootStage* -->
+	<append xpath="/items/item[@name='drugEyeKandy']"><effect_group tiered="false"><display_value name="dLootGamestageFlat" value="5" /><display_value name="dLootGamestagePerc" value=".1" /></effect_group></append>
+	<!-- Atom Junkies: +50% explosive block damage was not shown -->
+	<!-- Passive thirst: base WaterChangeOT is -0.0111/s; Steroids/Fort Bites add -0.05 (+450%), Recog -0.08 (+720%) -->
+	<append xpath="/items/item[@name='drugSteroids']"><effect_group tiered="false"><display_value name="dThirstRate" value="4.5" /></effect_group></append>
+	<append xpath="/items/item[@name='drugFortBites']"><effect_group tiered="false"><display_value name="dThirstRate" value="4.5" /></effect_group></append>
+	<append xpath="/items/item[@name='drugRecog']"><effect_group tiered="false"><display_value name="dThirstRate" value="7.2" /></effect_group></append>
+	<!-- Jail Breakers: lockpick durability +200%, break chance perc_subtract 2 (lockpicks do not break) -->
+	<append xpath="/items/item[@name='drugJailBreakers']"><effect_group tiered="false"><display_value name="dLockPickDurability" value="2" /><display_value name="dLockPickBreak" value="-1" /></effect_group></append>
+	<!-- Hackers / Rock Busters: -5% harvesting XP -->
+	<append xpath="/items/item[@name='drugHackers']"><effect_group tiered="false"><display_value name="dHarvestExp" value="-.05" /></effect_group></append>
+	<append xpath="/items/item[@name='drugRockBusters']"><effect_group tiered="false"><display_value name="dHarvestExp" value="-.05" /></effect_group></append>
+	<!-- Mega Crush: +120% water used per stamina point -->
+	<append xpath="/items/item[@name='drinkCanMegaCrush']"><effect_group tiered="false"><display_value name="dWaterPerStamina" value="1.2" /></effect_group></append>
+	<!-- Coffee jar: the tooltip shows dResistCold, the item only had dHypothermalResist -->
+	<append xpath="/items/item[@name='drinkJarCoffee']"><effect_group tiered="false"><display_value name="dResistCold" value="5" /></effect_group></append>
+	<!-- Plastic bottle drinks used the plain water tooltip, hiding their buffs -->
+	<append xpath="/items/item[@name='ulmDrinkPlasticBottleBeer']"><property name="DisplayType" value="waterBeer" /></append>
+	<append xpath="/items/item[@name='ulmDrinkPlasticBottleCoffee']"><property name="DisplayType" value="waterCoffee" /></append>
+	<append xpath="/items/item[@name='ulmDrinkPlasticBottleMineralWater']"><property name="DisplayType" value="waterGoldenrodRedTea" /></append>
+	<!-- Miner helmet used the generic mod tooltip (no armor stats) -->
+	<set xpath="/items/item[@name='armorMinerHelmet']/property[@name='DisplayType']/@value">armorMedium</set>
 </configs>
