@@ -16,3 +16,5 @@ ulmTipCrouchSpeed,Crouch Speed
 ulmTipHeatElecResist,Fire and Electric Damage Resist
 ulmTipVehicleTorque,Engine Torque
 ulmTipRecoilHorizontal,Horizontal Recoil
+statNoiseMultiplier,Noise
+statRunStamina,Stamina while running

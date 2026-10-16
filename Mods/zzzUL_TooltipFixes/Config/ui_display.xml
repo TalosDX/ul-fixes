@@ -20,4 +20,6 @@
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='modVehicleTurbo']"><display_entry name="VehicleMotorTorquePer" icon="symbol_gauge" title_key="ulmTipVehicleTorque" display_type="Percent" display_leading_plus="true" /></append>
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='ulmModMuzzleBrake']"><display_entry name="#dRecoilHorizontal" icon="symbol_recoil" title_key="ulmTipRecoilHorizontal" display_type="Percent" negative_preferred="true" /></append>
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='ulmModMuzzleBrake']"><display_entry name="#dWeaponHandling" icon="symbol_recoil" title_key="statWeaponHandling" display_type="Percent" display_leading_plus="true" string_format="0.#" /></append>
+	<!-- Character window: current noise multiplier (100% = normal). Inserted first so the window binds it as {playerStat1} -->
+	<insertBefore xpath="/ui_display_info/character_stat_display/display_entry[1]"><display_entry name="NoiseMultiplier" title_key="statNoiseMultiplier" display_type="Percent" /></insertBefore>
 </configs>

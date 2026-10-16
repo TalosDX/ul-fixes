@@ -26,3 +26,5 @@ ulmTipCrouchSpeed,Скорость передвижения крадучись
 ulmTipHeatElecResist,Защита от огня и тока
 ulmTipVehicleTorque,Крутящий момент
 ulmTipRecoilHorizontal,Горизонтальная отдача
+statNoiseMultiplier,Шумность
+statRunStamina,Выносливость при беге

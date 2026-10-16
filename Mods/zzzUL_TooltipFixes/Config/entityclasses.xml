@@ -1,0 +1,6 @@
+<configs>
+	<!-- The character window reads passive effects from base 0, so NoiseMultiplier (only perc_add effects) showed nothing.
+	     The game itself always evaluates it from base 1 (PlayerStealth), so this base_set does not change noise.
+	     1.00001 instead of 1 keeps float sums like 0.95 from rounding down to 94% in the window (0.001% difference). -->
+	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[passive_effect[@name='Mobility' and @operation='base_set']]"><passive_effect name="NoiseMultiplier" operation="base_set" value="1.00001" /></append>
+</configs>

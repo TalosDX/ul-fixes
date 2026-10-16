@@ -1,0 +1,8 @@
+<configs>
+	<!-- Character window: noise row after jump height, value from character_stat_display entry 1 (see ui_display.xml) -->
+	<insertAfter xpath="/windows/window[@name='CharacterFrameWindow']//grid[@name='scroll_grid']/ulmPlayerStat[@id='JumpStrength']/following-sibling::rect[1]"><ulmPlayerStat id="NoiseMultiplier" value="{playerStat1}" /><rect /></insertAfter>
+	<!-- Stamina per second while running, binding added by HonestTooltips.dll -->
+	<insertAfter xpath="/windows/window[@name='CharacterFrameWindow']//grid[@name='scroll_grid']/ulmPlayerStat[@id='StaminaRegen']/following-sibling::rect[1]"><ulmPlayerStat id="RunStamina" value="{ulmtRunStamina}" /><rect /></insertAfter>
+	<!-- UL's grid had 58 of 60 cells, the two rows above need 4 -->
+	<set xpath="/windows/window[@name='CharacterFrameWindow']//grid[@name='scroll_grid']/@rows">64</set>
+</configs>
